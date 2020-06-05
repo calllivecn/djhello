@@ -12,7 +12,7 @@ if [ -d "$DEPEND_CACHE" ];then
 	cp -rv "$DEPEND_CACHE"/* "$TMP"
 else
 	mkdir -v "${DEPEND_CACHE}"
-	pip install --no-compile --target "$DEPEND_CACHE" django
+	pip install --no-compile --target "$DEPEND_CACHE" -r requireuments.txt
 	cp -rv "$DEPEND_CACHE"/* "$TMP"
 fi
 
