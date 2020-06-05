@@ -1,0 +1,5 @@
+depend-cache/
+*.pyz
+static/
+__pycache__/
+*.sqlite3
