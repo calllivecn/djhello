@@ -14,7 +14,7 @@ class Hello(View):
 
     def get(self, request):
         print(f"request: {request}")
-        name = request.GET["arg1"]
+        name = request.GET.get("arg1")
         names = ",".join(request.GET.getlist("arg1"))
         return HttpResponse(f"hello {names}")
 
