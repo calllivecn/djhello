@@ -1,6 +1,6 @@
 #!/bin/bash
 # date 2020-06-04 15:58:24
-# author calllivecn <c-all@qq.com>
+# author calllivecn <calllivecn@outlook.com>
 
 CWD=$(pwd -P)
 TMP=$(mktemp -d -p "$CWD")
